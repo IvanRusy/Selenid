@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SelenideTest" verbose="1">
+    <test name="text-input">
+        <classes>
+            <class name="org.example.TextINputTest"/>
+        </classes>
+    </test>
+
+    <test name="mouse-over">
+        <classes>
+            <class name="org.example.MouseOverTest"/>
+        </classes>
+    </test>
+
+
+    <test name="alert">
+        <classes>
+            <class name="org.example.AlertTest"/>
+        </classes>
+    </test>
+
+    <test name="class-attribute">
+        <classes>
+            <class name="org.example.ClassAttributeTest"/>
+        </classes>
+    </test>
+
+    <test name="frames">
+        <classes>
+            <class name="org.example.FrameTest"/>
+        </classes>
+    </test>
+</suite>
